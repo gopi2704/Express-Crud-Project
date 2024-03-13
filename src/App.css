@@ -1,0 +1,59 @@
+.App{
+  text-align: center;
+  padding: 10px;
+  box-shadow: 30px;
+}
+
+.box{
+  border: 2px solid white;
+  backdrop-filter: blur(30px);
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 30px;
+}
+.box p{
+  font-weight: 700;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1,.box-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button{
+  background: red;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 10px;
+  
+}
+.box-1,.box-2 input{
+  border-radius: 30px 2px;
+  padding-left: 10px;
+  backdrop-filter: blur(30px);
+  background-color: transparent;
+  
+}
+.gop input{
+  border-radius: 30px 2px;
+  color: black;
+  padding-left: 20px;
+  background-color: transparent;
+}
+.box-1{
+  padding-right: 12px;
+}
+.box-2 input{
+  padding-left: 18px ;
+}
+.box-2 input::placeholder{
+  color: black;
+}
+.App input::placeholder{
+  color: black;
+}
